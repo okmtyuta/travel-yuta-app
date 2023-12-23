@@ -1,0 +1,51 @@
+.heading {
+  --heading1-top-space: 64px;
+  --heading1-bottom-space: 24px;
+  --heading2-top-space: 64px;
+  --heading2-bottom-space: 24px;
+  --heading3-top-space: 40px;
+  --heading3-bottom-space: 24px;
+  --heading4-top-space: 40px;
+  --heading4-bottom-space: 16px;
+  --heading5-top-space: 40px;
+  --heading5-bottom-space: 16px;
+  --heading6-top-space: 24px;
+  --heading6-bottom-space: 16px;
+}
+
+.frame {
+  margin: 0 auto;
+  padding: 0 24px;
+  max-width: 860px;
+}
+
+.h1 {
+  margin-top: var(--heading1-top-space);
+  margin-bottom: var(--heading1-bottom-space);
+  font-size: var(--heading1-size);
+  font-weight: var(--heading1-weight);
+}
+
+.h2 {
+  margin-top: var(--heading2-top-space);
+  margin-bottom: var(--heading2-bottom-space);
+  font-size: var(--heading2-size);
+  font-weight: var(--heading2-weight);
+}
+
+.caption {
+  font-size: 14px;
+  text-align: center;
+  color: gray;
+}
+
+.paragraph {
+  line-height: 1.7;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.image {
+  object-fit: contain;
+  position: relative !important;
+}
